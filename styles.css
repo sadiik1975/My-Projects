@@ -1,0 +1,129 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	background: #050a08 url(images/siteBackground.jpg) no-repeat center top;
+	color:#e5e5e5;
+	font-size:12px;
+}
+a {
+	color:#4dc4f0;
+	font-size:12px;
+}
+#container { 
+	width: 1000px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	padding-bottom:20px;
+} 
+#header {
+		padding-bottom:46px;
+}
+#logo {
+	color:#FFF;
+	font-size:48px;
+	float:left;
+	margin-left:110px;
+}
+#author {
+	float:right;
+	color:#FFF;
+	margin:20px 100px 0 0;
+}
+#menu {
+	margin:42px 0 0 300px;
+}
+ul#navlist {
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+}
+
+#navlist a { 
+	padding: 1px 22px;
+	font-size:24px;
+	color:#282e2f;
+}
+
+#navlist a:link, #navlist a:visited {
+	font-size:24px;
+	color: #282e2f;
+	text-decoration: none;
+}
+
+#navlist a:hover {
+	font-size:24px;
+	color: #fff;
+	background-color: #050a08;
+	text-decoration: none;
+}
+#navlist #active a {
+	font-size:24px;
+	color: #fff;
+	background-color: #050a08;
+	text-decoration: none;
+}
+#siteDescription {
+	margin:50px 400px 0 300px;
+	color:#050a08;
+}
+#siteDescription h1 {
+	color:#050a08;
+	font-size:24px;
+	padding-bottom:10px;
+}
+#sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 202px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #2b2f2d url(images/sidebarTop.jpg) no-repeat left top;
+	margin:0 0 0 100px;
+}
+#sideabarBottom img {
+	vertical-align:bottom;
+}
+#sidebar1 h3 {
+	font-size:14px;
+	color:#FFF;
+	margin:10px;
+}
+#sidebar1 ul {
+	margin:10px 10px 0 10px;
+}
+#sidebar1 li {
+	list-style:none;
+	background:url(images/p.gif) no-repeat left 3px;
+	padding-left:15px;
+	margin:10px 0;
+}
+#sidebar1 li a {
+	color:#e5e5e5;
+}
+#mainContent { 
+	margin: 0 100px 0 320px; /* the left margin on this div element creates the column down the left side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends. */
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+} 
+.picLeft {
+	float:left;
+	margin:0 20px 10px 0;
+}
+#footer {
+	background:#2b2f2d;
+	margin:0 100px;
+	text-align:center;
+}
+#footer .footerBottom {
+	vertical-align:bottom;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#content .inner_copy {border:0;color:#f00;float:left;width:50%!important;margin:-202px 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:12px}
